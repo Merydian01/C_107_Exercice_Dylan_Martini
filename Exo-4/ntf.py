@@ -36,11 +36,11 @@ w3 = Web3(Web3.HTTPProvider(RPC_URL))
 
 if w3.is_connected():
 
-    print("✅ Connecté à la blockchain")
+    print(" Connecté à la blockchain")
 
 else:
 
-    print("❌ Connexion échouée")
+    print(" Connexion échouée")
 
     exit()
 
